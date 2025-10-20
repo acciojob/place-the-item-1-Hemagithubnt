@@ -1,2 +1,22 @@
 
 /* Your CSS Code here. */
+.holder{
+	display: flex;
+	gap:3px;
+	justify-content: space-between;
+}
+.holder div{
+	background-color: green;
+	height:20px;
+	weight: 50%
+}
+.item {
+	display: flex;
+	gap:3px;
+	flex-wrap: wrap
+	
+}
+.item div{
+	background-color: red;
+	width:30%
+}
